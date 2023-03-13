@@ -37,7 +37,7 @@ re_id = r'[sg|d].([0-9]+)'  # Unique device identifier.
 re_device_state = r'[d|sg].[0-9]+=([0-9]+|[NaN]+)'  # Device state.
 
 # Path pointing to raw log-files and output path for parsed files (depending on OS this might have to be changed).
-data_path = '.\\validation'
+data_path = '.\\data'
 out_path = '.\\output'
 double_backslash = '\\'
 
